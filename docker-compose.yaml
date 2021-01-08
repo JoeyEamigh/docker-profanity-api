@@ -1,0 +1,8 @@
+version: "3"
+services:
+  shitty-profanity-filter-api:
+    image: joeyeamigh/shitty-profanity-filter-api:1.0.0
+    build:
+      context: .
+    network_mode: "host"
+    stdin_open: true
